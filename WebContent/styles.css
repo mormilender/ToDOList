@@ -1,0 +1,103 @@
+
+/*css document to style our pages*/
+
+/*style page login-sigh up*/
+body
+{
+    background-repeat: y-repeat;
+    background-size: cover;
+}
+
+hr
+{
+    background-color: #46377c;
+    height: 2px;
+}
+
+h1.signUpTitle
+{
+    color: #46377c;
+    text-align: center;
+}
+#BackLogin
+{
+	width:100%;
+}
+#signIn
+{
+    padding: 2%;
+}
+
+label.formTitle
+{
+    font-size: 22px;"
+}
+
+#signBtn
+{
+    margin-top: 5%
+}
+
+#sign,#log
+{
+    padding: 2%;
+}
+
+/*style page to do list */
+#home
+{
+    background: url('themes/back.jpg') no-repeat;
+    background-size: cover ;
+
+}
+#content
+{
+    margin:10% 15% 10% 15%;
+    border-radius: 1%;
+}
+
+#title
+{
+    padding: 2%;
+    width:30%;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#add
+{
+    float: right;
+    margin: 2%;
+}
+
+
+button.ui-btn
+{
+    display: inline;
+}
+
+#newItemForm,#updateForm{
+    padding:10px 20px;
+}
+
+#popupLogin-popup,#popupUpdate-popup{
+    width:30%;
+}
+
+#iconBack{
+    width: 20%;
+}
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  #title {
+   font-size: 17px;
+  }
+  #iconBack{
+      width: 40%;
+  }
+ #popupLogin-popup,#popupUpdate-popup{
+     width:80%;
+ }
+ 
+}

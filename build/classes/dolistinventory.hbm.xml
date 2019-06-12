@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+		"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="il.ac.hit.model.Item" table="ITEMS">
+		<id name="id" type="int" column="ID" >
+			<generator class="increment"/>
+		</id>
+		<property name="value">
+			<column name="VALUE"/>
+		</property>
+		<property name="done">
+			<column name="DONE"/>
+		</property>
+		<property name="deadLine">
+			<column name="DEADLINE"/>
+		</property>
+		<property name="userId">
+			<column name="USER_ID"/>
+		</property>
+	</class>
+	
+	<class name="il.ac.hit.model.User" table="USERS">
+		<id name="id" type="int" column="ID" >
+			<generator class="increment"/>
+		</id>
+		<property name="password">
+			<column name="PASSWORD"/>
+		</property>
+		<property name="name">
+			<column name="NAME"/>
+		</property>
+	</class>
+</hibernate-mapping>
